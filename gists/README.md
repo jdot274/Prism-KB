@@ -1,6 +1,6 @@
 # Prism Gists
 
-Standalone code snippets supporting the [Prism docs](https://jdot274.github.io/Prism/). Each gist here is also published as a GitHub Gist on `jdot274`'s account for one-click sharing.
+Standalone code snippets supporting the [Prism docs](https://jdot274.github.io/Prism-KB/). Each gist here is also published as a GitHub Gist on `jdot274`'s account for one-click sharing.
 
 ## Index
 

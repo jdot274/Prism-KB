@@ -1,6 +1,6 @@
 # Geometry Cache Howto
 
-Full docs at [geometry/geometry-cache](https://jdot274.github.io/Prism/geometry/geometry-cache/).
+Full docs at [geometry/geometry-cache](https://jdot274.github.io/Prism-KB/geometry/geometry-cache/).
 
 ## Pipeline (Houdini → UE)
 

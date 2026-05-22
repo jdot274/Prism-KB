@@ -99,9 +99,9 @@ get_viewport_screenshot()
 
 ## Pair with CCGS
 
-If you also want studio-style agent coordination (49 specialized AI agents + 72 workflow skills), see [Claude Code Game Studios](https://jdot274.github.io/Prism/ai-integration/ccgs/).
+If you also want studio-style agent coordination (49 specialized AI agents + 72 workflow skills), see [Claude Code Game Studios](https://jdot274.github.io/Prism-KB/ai-integration/ccgs/).
 
 ## See also
 
-- [Plugins → UnrealClaudeMCP](https://jdot274.github.io/Prism/plugins/unreal-claude-mcp/)
-- [AI Integration → UnrealClaudeMCP](https://jdot274.github.io/Prism/ai-integration/unreal-claude-mcp/)
+- [Plugins → UnrealClaudeMCP](https://jdot274.github.io/Prism-KB/plugins/unreal-claude-mcp/)
+- [AI Integration → UnrealClaudeMCP](https://jdot274.github.io/Prism-KB/ai-integration/unreal-claude-mcp/)

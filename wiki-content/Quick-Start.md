@@ -27,13 +27,13 @@ Optional, per-project: Pixel Streaming, DLSS / Streamline, Composure, GAS.
 
 ## First three pages to read
 
-1. [Volumes overview](https://jdot274.github.io/Prism/volumes/) — know your actor toolkit
-2. [Plugins catalog](https://jdot274.github.io/Prism/plugins/catalog/) — what's available
-3. [Rendering overview](https://jdot274.github.io/Prism/rendering/) — modern pipeline mental model
+1. [Volumes overview](https://jdot274.github.io/Prism-KB/volumes/) — know your actor toolkit
+2. [Plugins catalog](https://jdot274.github.io/Prism-KB/plugins/catalog/) — what's available
+3. [Rendering overview](https://jdot274.github.io/Prism-KB/rendering/) — modern pipeline mental model
 
 ## AI tooling
 
 If you want LLMs / Claude / Cursor driving your editor, see:
 
-- [UnrealClaudeMCP](https://jdot274.github.io/Prism/ai-integration/unreal-claude-mcp/)
-- [Claude Code Game Studios](https://jdot274.github.io/Prism/ai-integration/ccgs/)
+- [UnrealClaudeMCP](https://jdot274.github.io/Prism-KB/ai-integration/unreal-claude-mcp/)
+- [Claude Code Game Studios](https://jdot274.github.io/Prism-KB/ai-integration/ccgs/)

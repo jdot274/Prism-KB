@@ -1,8 +1,8 @@
 site_name: "Prism ◈ Unreal Engine Knowledge Base"
 site_description: "Exhaustive guide to Unreal Engine 5.7: plugins, blueprints, render targets, PCG, geometry cache, volumes, AI tooling, and AAA pipelines."
-site_url: https://jdot274.github.io/Prism/
-repo_url: https://github.com/jdot274/Prism
-repo_name: jdot274/Prism
+site_url: https://jdot274.github.io/Prism-KB/
+repo_url: https://github.com/jdot274/Prism-KB
+repo_name: jdot274/Prism-KB
 edit_uri: edit/main/docs/
 
 theme:
@@ -82,7 +82,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/jdot274/Prism
+      link: https://github.com/jdot274/Prism-KB
   generator: false
 
 nav:

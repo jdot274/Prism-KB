@@ -57,4 +57,4 @@ Pages target **UE 5.7** unless otherwise noted. Older API behavior is called out
 
 ## Contributing
 
-PRs welcome — see [CONTRIBUTING](https://github.com/jdot274/Prism/blob/main/CONTRIBUTING.md).
+PRs welcome — see [CONTRIBUTING](https://github.com/jdot274/Prism-KB/blob/main/CONTRIBUTING.md).

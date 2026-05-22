@@ -12,5 +12,5 @@
 
 ---
 
-[Full docs →](https://jdot274.github.io/Prism/)
-[Repo →](https://github.com/jdot274/Prism)
+[Full docs →](https://jdot274.github.io/Prism-KB/)
+[Repo →](https://github.com/jdot274/Prism-KB)

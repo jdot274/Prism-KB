@@ -2,10 +2,10 @@
 
 > An exhaustive Unreal Engine 5.7 knowledge base — plugins, blueprints, volumes, PCG, geometry cache, render targets, AI tooling, and AAA-grade rendering pipelines.
 
-[![Pages](https://github.com/jdot274/Prism/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/jdot274/Prism/actions/workflows/deploy-docs.yml)
+[![Pages](https://github.com/jdot274/Prism-KB/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/jdot274/Prism-KB/actions/workflows/deploy-docs.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Site:** https://jdot274.github.io/Prism/
+**Site:** https://jdot274.github.io/Prism-KB/
 
 ---
 

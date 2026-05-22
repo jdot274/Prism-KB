@@ -78,5 +78,5 @@ Build a settings menu that:
 
 ## Linked
 
-- [Rendering → Pixel Streaming](https://jdot274.github.io/Prism/rendering/pixel-streaming/)
-- [Workflows → NVIDIA RTX Stack](https://jdot274.github.io/Prism/workflows/nvidia-rtx-stack/)
+- [Rendering → Pixel Streaming](https://jdot274.github.io/Prism-KB/rendering/pixel-streaming/)
+- [Workflows → NVIDIA RTX Stack](https://jdot274.github.io/Prism-KB/workflows/nvidia-rtx-stack/)

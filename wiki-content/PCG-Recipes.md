@@ -1,6 +1,6 @@
 # PCG Recipes
 
-Quick patterns. Full docs at [pcg/](https://jdot274.github.io/Prism/pcg/).
+Quick patterns. Full docs at [pcg/](https://jdot274.github.io/Prism-KB/pcg/).
 
 ## Scatter trees on slopes < 30°
 

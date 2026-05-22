@@ -1,6 +1,6 @@
 # Plugins Quick Reference
 
-Compact, scannable plugin index. Full catalog at [plugins/catalog](https://jdot274.github.io/Prism/plugins/catalog/).
+Compact, scannable plugin index. Full catalog at [plugins/catalog](https://jdot274.github.io/Prism-KB/plugins/catalog/).
 
 ## ★ Essential
 

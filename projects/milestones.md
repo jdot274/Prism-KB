@@ -60,4 +60,4 @@ GitHub Project (v2) milestones for tracking knowledge-base expansion.
 
 ## Open issues
 
-Tracked at https://github.com/jdot274/Prism/issues.
+Tracked at https://github.com/jdot274/Prism-KB/issues.

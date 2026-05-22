@@ -1,6 +1,6 @@
 # Prism ◈ Wiki
 
-Welcome to the quick-reference companion to the full [Prism docs site](https://jdot274.github.io/Prism/).
+Welcome to the quick-reference companion to the full [Prism docs site](https://jdot274.github.io/Prism-KB/).
 
 The wiki holds **cheatsheets**, **recipes**, and **FAQs** — anything that benefits from a tight standalone page. Long-form prose lives in the docs.
 
@@ -29,4 +29,4 @@ The wiki holds **cheatsheets**, **recipes**, and **FAQs** — anything that bene
 
 ## Contributing
 
-PRs to `wiki-content/` in the main repo become wiki pages on merge. See [CONTRIBUTING](https://github.com/jdot274/Prism/blob/main/CONTRIBUTING.md).
+PRs to `wiki-content/` in the main repo become wiki pages on merge. See [CONTRIBUTING](https://github.com/jdot274/Prism-KB/blob/main/CONTRIBUTING.md).

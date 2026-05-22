@@ -26,4 +26,4 @@
 - **NavMesh** rebuilds when the volume changes; expect editor pauses.
 - **PCG** + WP cells generate per-cell with hierarchical seeds.
 
-Full docs at [volumes/](https://jdot274.github.io/Prism/volumes/).
+Full docs at [volumes/](https://jdot274.github.io/Prism-KB/volumes/).

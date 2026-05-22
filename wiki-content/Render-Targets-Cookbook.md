@@ -1,6 +1,6 @@
 # Render Targets Cookbook
 
-Quick recipes. Full reference at [rendering/render-targets](https://jdot274.github.io/Prism/rendering/render-targets/).
+Quick recipes. Full reference at [rendering/render-targets](https://jdot274.github.io/Prism-KB/rendering/render-targets/).
 
 ## Mirror
 
