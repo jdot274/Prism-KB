@@ -1,0 +1,37 @@
+name: Documentation request
+description: Request a new page or expansion of an existing one
+labels: ["docs"]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: What should be documented?
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - Rendering
+        - Geometry
+        - PCG
+        - Volumes
+        - Blueprints
+        - Plugins
+        - Animation
+        - Audio
+        - Networking
+        - Tools
+        - AI Integration
+        - Workflows
+        - Reference
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / sources
+      description: Links, existing UE docs, or context that should be included.

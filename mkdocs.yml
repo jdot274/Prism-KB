@@ -1,0 +1,194 @@
+site_name: "Prism ◈ Unreal Engine Knowledge Base"
+site_description: "Exhaustive guide to Unreal Engine 5.7: plugins, blueprints, render targets, PCG, geometry cache, volumes, AI tooling, and AAA pipelines."
+site_url: https://jdot274.github.io/Prism/
+repo_url: https://github.com/jdot274/Prism
+repo_name: jdot274/Prism
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/diamond-stone
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.caret
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jdot274/Prism
+  generator: false
+
+nav:
+  - Home: index.md
+  - Rendering:
+      - rendering/index.md
+      - Nanite: rendering/nanite.md
+      - Lumen: rendering/lumen.md
+      - Virtual Textures: rendering/virtual-textures.md
+      - Render Targets: rendering/render-targets.md
+      - Path Tracing: rendering/path-tracing.md
+      - Ray Tracing: rendering/ray-tracing.md
+      - Pixel Streaming: rendering/pixel-streaming.md
+      - Post Process: rendering/post-process.md
+  - Geometry:
+      - geometry/index.md
+      - Geometry Cache: geometry/geometry-cache.md
+      - Nanite Geometry: geometry/nanite-geometry.md
+      - Modeling Tools: geometry/modeling-tools.md
+      - Geometry Script: geometry/geometry-script.md
+      - Procedural Meshes: geometry/procedural-meshes.md
+  - PCG:
+      - pcg/index.md
+      - Graph Basics: pcg/graph-basics.md
+      - Samplers & Spawners: pcg/samplers-and-spawners.md
+      - Volumes & Bounds: pcg/volumes-and-bounds.md
+      - Biomes: pcg/biomes.md
+      - World Partition: pcg/world-partition.md
+  - Volumes:
+      - volumes/index.md
+      - Post Process Volume: volumes/post-process-volume.md
+      - Trigger Volumes: volumes/trigger-volumes.md
+      - Physics Volumes: volumes/physics-volumes.md
+      - Audio Volumes: volumes/audio-volumes.md
+      - NavMesh Volumes: volumes/navmesh-volumes.md
+      - Cull Distance: volumes/cull-distance.md
+      - Streaming Volumes: volumes/streaming-volumes.md
+      - PCG Volume: volumes/pcg-volume.md
+      - Heterogeneous Volumes: volumes/heterogeneous-volumes.md
+  - Blueprints:
+      - blueprints/index.md
+      - Actor: blueprints/actor.md
+      - Pawn & Character: blueprints/pawn-character.md
+      - Components: blueprints/components.md
+      - Widget Blueprint: blueprints/widget-blueprint.md
+      - Animation Blueprint: blueprints/animation-blueprint.md
+      - Data Assets: blueprints/data-asset.md
+      - Gameplay Ability: blueprints/gameplay-ability.md
+      - Full Class Catalog: blueprints/full-class-catalog.md
+  - Plugins:
+      - plugins/index.md
+      - Catalog: plugins/catalog.md
+      - Essential: plugins/essential.md
+      - Rendering: plugins/rendering.md
+      - Audio: plugins/audio.md
+      - UI: plugins/ui.md
+      - Animation: plugins/animation.md
+      - Networking: plugins/networking.md
+      - AI Tools: plugins/ai-tools.md
+      - Editor Extensions: plugins/editor-extensions.md
+      - Web & Streaming: plugins/web-and-streaming.md
+      - Third-Party: plugins/third-party.md
+      - UnrealClaudeMCP: plugins/unreal-claude-mcp.md
+  - Animation:
+      - animation/index.md
+      - AnimGraph: animation/animgraph.md
+      - Motion Matching: animation/motion-matching.md
+      - Chooser: animation/chooser.md
+      - Control Rig: animation/control-rig.md
+      - MetaHuman: animation/metahuman.md
+  - Audio:
+      - audio/index.md
+      - MetaSounds: audio/metasounds.md
+      - Sound Cues: audio/sound-cues.md
+      - Sound Classes: audio/sound-classes.md
+      - Audio Volumes: audio/audio-volumes.md
+      - Quartz: audio/quartz.md
+  - Networking:
+      - networking/index.md
+      - Replication: networking/replication.md
+      - RPC: networking/rpc.md
+      - Iris: networking/iris.md
+      - Pixel Streaming: networking/pixel-streaming.md
+      - Dedicated Server: networking/dedicated-server.md
+  - Tools:
+      - tools/index.md
+      - Modeling Mode: tools/modeling-mode.md
+      - Landscape: tools/landscape.md
+      - Foliage: tools/foliage.md
+      - Sequencer: tools/sequencer.md
+      - World Partition: tools/world-partition.md
+      - Data Layers: tools/data-layers.md
+      - One File Per Actor: tools/one-file-per-actor.md
+  - AI Integration:
+      - ai-integration/index.md
+      - UnrealClaudeMCP: ai-integration/unreal-claude-mcp.md
+      - Unreal AI Connection: ai-integration/unreal-ai-connection.md
+      - CCGS: ai-integration/ccgs.md
+      - UnrealJS: ai-integration/unreal-js.md
+  - Workflows:
+      - workflows/index.md
+      - three.js in UE: workflows/three-js-in-ue.md
+      - UE in three.js: workflows/ue-in-three-js.md
+      - NVIDIA RTX Stack: workflows/nvidia-rtx-stack.md
+      - Streaming Pipelines: workflows/streaming-pipelines.md
+  - Reference:
+      - reference/glossary.md
+      - Commands: reference/commands.md
+      - CVars: reference/cvars.md
