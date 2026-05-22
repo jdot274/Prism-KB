@@ -47,6 +47,29 @@ projects/            Project board specs
 mkdocs.yml           Site config
 ```
 
+## Wiki
+
+The wiki at https://github.com/jdot274/Prism-KB/wiki is **mirrored** from `wiki-content/`.
+
+**One-time wiki bootstrap:** GitHub's `.wiki.git` repo doesn't exist until you create a page through the UI. Visit https://github.com/jdot274/Prism-KB/wiki, click "Create the first page", save anything, then run:
+
+```powershell
+./scripts/push-wiki.ps1
+```
+
+This will overwrite the wiki with the contents of `wiki-content/`.
+
+## Project board
+
+A roadmap project board is suggested but requires extra OAuth scopes. To create it via CLI:
+
+```bash
+gh auth refresh -s project,read:project
+gh project create --owner jdot274 --title "Prism-KB Roadmap"
+```
+
+Or create it manually at https://github.com/users/jdot274/projects/new. Milestones (v0.2 – v0.6) are already pre-created in the repo.
+
 ## Contributing
 
 PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Any addition to `docs/` auto-deploys to Pages on merge to `main`.
